@@ -39,7 +39,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.1
       - name: Download generated site
-        uses: actions/download-artifact@v4.1.2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: site
           path: "${{ github.workspace }}/${{ env.SITE_DIR }}"
